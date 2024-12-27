@@ -25,9 +25,9 @@ public class set_types {
         System.out.println(num);
     }
 }
- */
+
 //linkedset
-public class set_types {
+public class collectionandset1 {
     public static void main(String[] args) {
         Set<String> num=new LinkedHashSet();
         num.add("sathya");
@@ -37,3 +37,5 @@ public class set_types {
         System.out.println(num);
     }
 }
+
+ */

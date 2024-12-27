@@ -67,7 +67,7 @@ public class collection1_framework {
         System.out.println(name);
         }
     }
- */
+
 // using vector method
 public class collection1_framework {
     public static void main(String[] args) {
@@ -91,3 +91,40 @@ public class collection1_framework {
 
     }
 }
+
+//Stack in collection java Last In First Out
+public class collectionandset {
+    public static void main(String[] args) {
+        Stack name =new Stack();
+       name.add(1);
+       name.add(2);
+       name.add(3);
+       name.add(4);
+       name.add(5);
+        name.pop(); //deleting
+        name.push(6); //adding
+        System.out.println("name:"+name);
+        name.remove(3);
+        name.add(7);
+        System.out.println(name);
+    }
+}
+
+public class collectionandset {
+    public static void main(String[] args) {
+        Stack<String> name =new Stack<>();
+        name.add("sathya");
+        name.add("seelan");
+        name.add("kishore");
+        name.add("subburaja");
+        name.add("dfghjk");
+        name.pop(); //deleting
+        name.push("dfghjk"); //adding
+        System.out.println("name:"+name);
+        name.remove(1);
+        name.add("qwertyui");
+        System.out.println(name);
+    }
+}
+
+ */
